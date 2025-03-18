@@ -22,7 +22,9 @@ function createWindow () {
     height: 800,
     webPreferences: {
               webgl: true,
-              nodeIntegration : true
+              nodeIntegration: true,  // <-- explicitly enable Node integration
+              contextIsolation: false, // <-- disable context isolation
+              enableRemoteModule: true // if remote is needed
     },
     icon: path.join(__dirname, 'resources/images/introlab_icon.png'),
     show: false

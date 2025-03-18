@@ -10,18 +10,20 @@
   "author": "Cedric Godin",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^5.0.3",
-    "electron-rebuild": "^1.8.5"
+    "electron": "^13.6.9",
+    "electron-rebuild": "^3.2.9"
   },
   "dependencies": {
     "@google-cloud/speech": "^3.2.0",
-    "grpc": "^1.21.1",
+    "@grpc/grpc-js": "^1.10.9",
     "ip": "^1.1.5",
     "mathjs": "^6.0.1",
     "node-localstorage": "^1.3.1",
     "systeminformation": "^4.9.0",
     "wav": "^1.0.2",
     "wav-file-info": "0.0.8"
+    
+    
   },
   "repository": {
     "type": "git",
